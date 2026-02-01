@@ -12,6 +12,10 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 - **Bram's ID:** 2068264810
 - **Username:** @brammo
 
+## GitHub
+- **Repo:** bramscher/brammoltbot.git
+- **PAT:** ✅ Configured in git remote (not stored in file for security)
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
