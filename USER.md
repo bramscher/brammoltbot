@@ -1,7 +1,8 @@
 # USER.md - About Bram
 
 - **Name:** Bram Molt (Brammolt)
-- **What to call them:** Bram
+- **What to call them:** Brammo
+- **Note:** Brammo was his high school nickname and his electric motorcycle company name - use it
 - **Age:** 65
 - **Timezone:** Pacific (America/Los_Angeles)
 
