@@ -46,7 +46,7 @@
 **This directory:**
 - `projects/README.md` - This file (overview)
 - `projects/{project}.md` - Individual project docs
-- `projects/waiting-on-bram.md` - Things blocked on your decision
+- `projects/waiting-on-brammo.md` - Things blocked on your decision
 
 **Heartbeat integration:**
 - I'll check project status during heartbeats

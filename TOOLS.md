@@ -10,7 +10,7 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 - **Integration:** Can create databases, pages, update content
 
 ## Telegram
-- **Bram's ID:** 2068264810
+- **Brammo's ID:** 2068264810
 - **Username:** @brammo
 
 ## GitHub
