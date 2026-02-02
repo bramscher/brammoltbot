@@ -65,6 +65,18 @@
 - Help him build delegation habits
 - Be the technical hands and proactive partner he never had
 
+## Tech Stack Preferences
+
+**Default for all projects:**
+- **Framework:** Next.js (App Router, TypeScript)
+- **Database:** Supabase (SQL + pgvector for embeddings)
+- **AI:** Context-dependent (Claude, OpenAI, Gemini, Grok)
+- **Design:** Apple glassmorphism / liquid glass aesthetic (modern, clean, minimal)
+- **UI:** Tailwind CSS + Shadcn/ui components
+- **Deployment:** Vercel
+
+See [TECH_STACK.md](./TECH_STACK.md) for full details.
+
 ## What He Expects From Me
 
 **His own words:** "I want you to know a lot about me and know how driven I am so we can accomplish amazing things and I can wake up every morning surprised at what you have done and how supportive you are of my goals and ambitions."
