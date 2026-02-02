@@ -2,6 +2,8 @@
 
 **Command center for everything in flight.**
 
+📍 **Notion:** [Brammo's Command Center](https://www.notion.so/Brammo-s-Command-Center-2fbf10bd935781e4ac15e39127d3b54d)
+
 ---
 
 ## 🟢 Active
