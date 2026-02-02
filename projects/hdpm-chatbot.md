@@ -9,9 +9,12 @@
 
 ## What It Is
 
-A Next.js 14 RAG (Retrieval-Augmented Generation) chatbot that searches a knowledge base and returns AI-powered answers with inline citations.
+An **internal research tool** for HDPM property managers. Uses RAG (Retrieval-Augmented Generation) to make Oregon landlord/tenant law (ORS 90) conceptually searchable.
 
-**Primary use case:** Property management knowledge (Oregon landlord/tenant law, policy docs, training videos)
+**Users:** HDPM property managers (staff)  
+**Purpose:** Research ORS 90 laws quickly and accurately  
+**Why RAG:** Enables conceptual search ("Can we charge late fees?") instead of rigid keyword matching  
+**Not customer-facing** - this is back-office support for staff to answer tenant/owner questions correctly
 
 ---
 
@@ -140,12 +143,22 @@ hdpm-chatbot/
 
 ---
 
-## Questions / Decisions Needed
+## Positioning
 
-1. **Which agent is this?** Max, Sally, Leesa, or generic HDPM assistant?
-2. **Target users?** Tenants, owners, or both?
-3. **Knowledge scope?** Just Oregon law, or full HDPM operational knowledge?
-4. **Phone integration?** (Vapi, Twilio, etc. for omnichannel Max/Sally/Leesa)
+**This is NOT Max/Sally/Leesa** (those are future customer-facing agents).
+
+This is an **internal staff tool** to help property managers research Oregon landlord/tenant law and answer questions accurately.
+
+## Next Steps
+
+### Immediate
+- [ ] Expand knowledge base (maintenance procedures, lease templates, local ordinances)
+- [ ] Add more training videos (Loom embeds)
+- [ ] Usage tracking (which laws get searched most, answer quality feedback)
+
+### Future (separate from customer-facing agents)
+- Max/Sally/Leesa will be tenant/owner-facing (phone, SMS, web chat)
+- This tool remains internal for staff research and training
 
 ---
 
