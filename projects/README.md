@@ -2,7 +2,9 @@
 
 **Command center for everything in flight.**
 
-📍 **Notion:** [Brammo's Command Center](https://www.notion.so/Brammo-s-Command-Center-2fbf10bd935781e4ac15e39127d3b54d)
+📍 **Notion Database:** [Projects Command Center](https://www.notion.so/2fbf10bd935781cb82cde5cf9e569360)
+
+*Switch views: Table | Board (Kanban) | List | Calendar*
 
 ---
 
