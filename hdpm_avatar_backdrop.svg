@@ -1,0 +1,59 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fafaf8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a9d6f;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4a9d6f;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Vertical accent stripe on right side -->
+  <rect x="1800" y="0" width="120" height="1080" fill="#4a9d6f" opacity="0.9"/>
+  
+  <!-- Horizontal accent line near top -->
+  <rect x="0" y="140" width="1920" height="8" fill="#d4e8d9"/>
+  
+  <!-- Glassmorphism window element (upper left) -->
+  <g opacity="0.6">
+    <rect x="80" y="80" width="220" height="220" fill="none" stroke="#4a9d6f" stroke-width="3" rx="8"/>
+    <line x1="190" y1="80" x2="190" y2="300" stroke="#4a9d6f" stroke-width="2"/>
+    <line x1="80" y1="190" x2="300" y2="190" stroke="#4a9d6f" stroke-width="2"/>
+  </g>
+  
+  <!-- Company name and branding (upper right - prominent) -->
+  <text x="1400" y="140" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#1a1a1a">
+    HIGH DESERT
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="1400" y="240" font-family="Arial, sans-serif" font-size="56" font-weight="500" fill="#4a9d6f">
+    PROPERTY MANAGEMENT
+  </text>
+  
+  <!-- Decorative underline -->
+  <line x1="1400" y1="270" x2="1850" y2="270" stroke="#4a9d6f" stroke-width="3"/>
+  
+  <!-- Contact information (bottom right) -->
+  <text x="1850" y="1000" font-family="Arial, sans-serif" font-size="32" fill="#666666" text-anchor="end">
+    1515 SW Reindeer Ave | 541-548-0383
+  </text>
+  
+  <!-- Website (bottom right) -->
+  <text x="1850" y="1050" font-family="Arial, sans-serif" font-size="32" fill="#4a9d6f" font-weight="500" text-anchor="end">
+    highdesertpm.com
+  </text>
+  
+  <!-- Subtle corner accent (bottom left - where avatar goes) -->
+  <circle cx="120" cy="920" r="80" fill="#d4e8d9" opacity="0.15"/>
+  
+  <!-- Professional shadow/depth effect -->
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#accentGradient)" opacity="0.05"/>
+</svg>
