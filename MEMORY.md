@@ -98,18 +98,49 @@ Craig shared his full professional background and made his expectations crystal 
 
 *(Track what's in flight, what's next, what matters.)*
 
-### Current Focus
+### Current Focus (Updated 2026-02-05)
 
-1. **Konmashi omnichannel strategy** - documented, team presentation pending
-2. **HDPM operations** - property management business
-3. **Model routing optimization** - Sonnet primary, Opus fallback, specialists on demand (cost-effective + high success)
+1. **OpenClawPM** (NEW) - SaaS platform for property management companies to manage OpenClaw
+   - Pilot: HDPM
+   - Tech: Next.js + Supabase + Vercel
+   - Features: Instance management, agent builder (Max/Sally/Leesa), KB management, analytics
+   - MVP timeline: 4 weeks
+2. **HDPM operations** - property management business (OpenClawPM becomes operational tool)
+3. **Konmashi** - separate product conversation (TBD)
+
+### OpenClawPM Details
+
+**What it is:** A managed SaaS platform specifically for property management companies. Deploy, configure, and manage OpenClaw instances with no code. Includes pre-built PM templates (Max for maintenance, Sally for reception, Leesa for leasing).
+
+**Why it matters:** 
+- HDPM becomes the proof-of-concept & paying customer
+- Commercializes OpenClaw for thousands of PM companies
+- $500M+ TAM in property management alone
+- Can be white-labeled for other verticals later
+
+**Tech stack (locked):**
+- Next.js (App Router, TypeScript)
+- Supabase (PostgreSQL + pgvector for embeddings)
+- Tailwind + Shadcn/ui with Apple glassmorphism aesthetic
+- Vercel deployment
+- GitHub version control
+
+**MVP (4 weeks):**
+- Dashboard (org overview, instance health, PM metrics)
+- Agent builder (CRUD, model selection, tool management)
+- Knowledge base upload & search (property docs, policies, procedures)
+- Configuration (connect instance, manage API keys)
+- Analytics (conversations, tokens, cost)
+- Auth (sign up, team invites, RBAC)
 
 ### Upcoming
 
-- Finalize Konmashi flow specs and component relationships
-- Build out Max, Sally, Leesa as omnichannel brand assets
-- HDPM validation metrics (lead conversion, ROI)
-- Konmashi productization roadmap
+- Set up GitHub repo (openclawpm)
+- Initialize Supabase project & schema
+- Build Next.js scaffolding + glassmorphism design
+- Auth flow (Supabase Auth)
+- MVP features (Sprint 1)
+- Schedule Konmashi conversation
 
 ---
 
